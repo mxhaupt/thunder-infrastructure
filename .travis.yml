@@ -95,7 +95,7 @@ before_script:
 
 script:
   # Run Behat tests.
-  - behat --config $TRAVIS_BUILD_DIR/ci/travis/travis.behat.yml
+  - $TRAVIS_BUILD_DIR/bin/behat --config travis.behat.yml
 
 after_success:
   - $TRAVIS_BUILD_DIR/ci/travis/scripts/deploy.sh
