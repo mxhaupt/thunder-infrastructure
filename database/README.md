@@ -1,5 +1,5 @@
 # Travis dump
-This dump is used for behat tests it is created by doing the following steps
+This dump is used for behat tests and should be created whenever this site is installed first it is created by doing the following steps
 
     drush si thunder --account-name=admin --account-pass=admin --site-mail=admin@example.com --yes
     drush locale-update
