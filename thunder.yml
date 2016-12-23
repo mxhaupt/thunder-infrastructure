@@ -6,28 +6,28 @@ defaults:
     subdir: "contrib"
 
 includes:
-  - http://cgit.drupalcode.org/thunder/plain/drupal-org.make.yml?h=8.x-1.0-beta7
-  - http://cgit.drupalcode.org/thunder/plain/develop.make.yml?h=8.x-1.0-beta7
+  - http://cgit.drupalcode.org/thunder/plain/drupal-org.make.yml?h=8.x-1.0-rc5
+  - http://cgit.drupalcode.org/thunder/plain/develop.make.yml?h=8.x-1.0-rc5
 
 # Drupal core
 projects:
   drupal:
     type: "core"
-    version: "8.1.2"
+    version: "8.2.4"
     translations:
       - de
 
   thunder:
     type: "profile"
-    version: "1.0-beta7"
+    version: "1.0-rc5"
 
   acquia_connector:
     type: "module"
-    version: "1.1"
+    version: "1.7"
 
   acquia_lift:
     type: "module"
-    version: "1.0-alpha5"
+    version: "1.0-alpha6"
 
   ad_integration:
     type: "module"
@@ -45,8 +45,8 @@ projects:
 
   imagemagick:
     type: "module"
-    version: "1.0-alpha2"
+    version: "1.0-alpha5"
 
   redirect:
     type: "module"
-    version: "1.0-alpha1"
+    version: "1.0-alpha2"
